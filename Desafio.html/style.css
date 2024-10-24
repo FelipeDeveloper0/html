@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "idroid";
+    src: url(fontes/idroid.otf) format(opentype);
+}
+
+header {
+    background-image: linear-gradient(rgb(48, 93, 48), rgba(82, 216, 163, 0.804));
+    border-color: black;
+    border-radius: 15px;
+}
+
+p {
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+}
+header > p {
+    color: white;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 0.5px 0.5px rgba(44, 44, 44, 0.522);
+}
+
+a:hover {
+    color: rgb(79, 79, 255);
+}
+
+h1#principal {
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.515);
+}
+
+body {
+    background-color: rgb(134, 237, 160);
+}
+
+main {
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+
+h1 {
+    font-family: "idroid";
+    text-align: center;
+    color: rgb(32, 147, 34);
+}
+
+h2 {
+    text-align: center;
+    color:  rgb(0, 0, 0);
+}
+
+span {
+    color: green;
+    text-decoration: underline;
+}
+
+span::after {
+    content: " ✈";
+    color: black;
+}
+
+footer {
+     background-color: white;
+     border-radius: 15px;
+     padding: 5px;
+     margin: 5px;
+}
+
+footer > p {
+    font-weight: 600;
+}
+
+p#pergunta {
+    font-weight: bold;
+}
+
+article > ul {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+div {
+    display: block;
+    text-align: center;
+}

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Updock&display=swap');
+
+        h1 {
+            font-family: "Updock", cursive, serif;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 5em;
+        }
+
+        h2 {
+            font-family: "Updock", cursive, serif;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 3em;
+        }
+
+        p {
+            font-style: italic;
+            font-weight: bold;
+        }

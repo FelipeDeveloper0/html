@@ -1,0 +1,58 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "megrath";
+    src: url(font/megrath/megrath.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #90D1EA;
+}
+
+h1 {
+    color: #213841;
+    font-family: "megrath";
+}
+
+h1#principal {
+    background-color: #122A33;
+    text-align: center;
+    color: white;
+    font-family: "megrath" ;
+    border-radius: 15px;
+}
+
+h2 {
+    color: #001C42;
+    font-family: "megrath";
+    font-style: italic;
+}
+
+.basico {
+    color: #490f9a;
+    font-family: "megrath";
+}
+
+.intermediario {
+    color: #441d6b;
+    font-family: "megrath";
+}
+
+.avancado {
+    color: #371556;
+    font-family: "megrath";
+
+}
+
+p {
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    font-family: "megrath";
+    font-size: small;
+}
+
+.destaque {
+    background-color: #b98ce6b7;
+    font-weight: bolder;
+}
